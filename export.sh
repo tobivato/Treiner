@@ -1,0 +1,2 @@
+#Zip files
+zip -r prod.zip .ebextensions .env.staging app bootstrap config database public resources routes storage .gitattributes .gitignore artisan composer.json composer.lock package-lock.json package.json server.php webpack.mix.js

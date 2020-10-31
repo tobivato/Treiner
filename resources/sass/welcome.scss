@@ -1,0 +1,481 @@
+.text-primary {
+    color: #006f46 !important;
+  }
+  
+  .bg-primary {
+    background-color: #006f46 !important;
+  }
+  
+  .btn-primary {
+    background-color: #006f46;
+    border-color: #006f46;
+    border-radius: 40px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #025f3c;
+    border-color: #025f3c;
+  }
+  
+  /* ========= section1 ========= */
+  
+  .section1 {
+    background-image: url('/img/bg1.svg'), url('/img/bg2.svg');
+    background-repeat: no-repeat;
+    background-size: 123%, 123%;
+    background-position: 50% -31vw, calc(50% + 8vw) calc(100% + 11vw);
+  }
+  
+  /* section 1-1 */
+  
+  .section1-1 {
+    padding-top: 27vw;
+    padding-bottom: 9vw;
+  }
+  
+  .section1-1 h1 {
+    font-weight: bold;
+  }
+  
+  .section1-1 p {
+    font-weight: 500;
+  }
+  
+  .section1-1 button {
+    padding: 0.25em 1em;
+    border-radius: 60px;
+  }
+  
+  /* section 1-2 */
+  
+  .section1-2 ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+  
+  .section1-2 ul > li {
+    text-align: center;
+  }
+  
+  .section1-2 ul > li img {
+    width: 100%;
+  }
+  
+  .section1-2 ul > li h2 {
+    font-weight: bold;
+    padding-bottom: 1em;
+    margin: 1em 0;
+    border-bottom: 4px solid #ccc9c7;
+  }
+  
+  /* section 1-3 */
+  
+  .section1-3 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .section1-3 > div {
+    flex: 1;
+  }
+  
+  .section1-3 > div + div {
+    margin-left: 5rem;
+    text-align: right;
+  }
+  
+  .section1-3 img {
+    width: 100%;
+  }
+  
+  .section1-3 h2 {
+    font-weight: bold;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+    border-bottom: 4px solid #ccc9c7;
+  }
+  
+  /* ========= section 4 ========= */
+  
+  .section2 {
+    padding: 4rem 0;
+    text-align: center;
+    background-color: #006f46;
+  }
+  
+  .section2 h2 {
+    font-weight: bold;
+    font-size: 2.4rem;
+    max-width: 900px;
+    margin: 0 auto;
+    color: #ffffff;
+  }
+  
+  .section2 form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3em auto 0 auto;
+  }
+  
+  .section2 form input {
+    width: 100%;
+    max-width: 600px;
+    padding: 0.4rem 1rem;
+    height: auto;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2) inset;
+    border: 2px solid #ccc9c7;
+  }
+  .section2 form button {
+    background-color: #d8eee6;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    padding: 0.4rem 1.5rem;
+    margin-left: 3rem;
+  }
+  
+  /* ========= section 5 ========= */
+  
+  .section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 2rem;
+    min-height: 50vw;
+  
+    background-image: url('/img/bg3.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% calc(100% + 23vw);
+  }
+  
+  .section3 > h2 {
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: 4px solid #ccc9c7;
+    font-size: 2.8rem;
+    font-weight: bold;
+  }
+  
+  .section3 .carousel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  
+  .section3 .carousel-inner {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .section3 .carousel-inner .carousel-item {
+    height: 100%;
+  }
+  
+  .section3 .carousel-inner .carousel-item .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .section3 .carousel-control-prev,
+  .section3 .carousel-control-next {
+    top: 50%;
+    margin-top: -50px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #bfdbd1;
+    border: 4px solid #7fb7a2;
+  }
+  
+  .section3 .carousel-control-prev {
+    left: -70px;
+  }
+  
+  .section3 .carousel-control-next {
+    right: -70px;
+  }
+  
+  .section3 .carousel-indicators {
+    position: initial;
+    margin: 0;
+  }
+  
+  .section3 .carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    margin: 0 1rem;
+    border-radius: 50%;
+    background-color: #c4c4c4;
+  }
+  
+  /* ========= responsive ========= */
+  
+  @media (max-width: 575px) {
+    .section3 {
+      padding: 2rem;
+    }
+  
+    .section3 > h2 {
+      font-size: 1 rem;
+    }
+  
+    .section3 .carousel-control-prev,
+    .section3 .carousel-control-next {
+      margin-top: -40px;
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
+  @media (min-width: 576px) {
+    .section1 {
+      background-size: 758px;
+      background-position: 50% -185px, calc(50% + 24px) calc(100% + 66px);
+    }
+  
+    .section1-1 {
+      padding-top: 171px;
+      padding-bottom: 57px;
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    .section1-1 h1 {
+      font-size: 43px;
+    }
+  
+    .section1-1 p {
+      font-size: 21px;
+    }
+  
+    .section1-1 button {
+      font-size: 15px;
+      margin-left: 0;
+    }
+  
+    .section1-2 ul {
+      display: block;
+    }
+  
+    .section1-2 ul > li {
+      max-width: 70%;
+      margin: 0 auto;
+    }
+  
+    .section1-2 ul > li img {
+      max-width: 50%;
+    }
+  
+    .section1-2 ul > li h2 {
+      font-size: 28px;
+      border-bottom-width: 3px;
+    }
+  
+    .section1-2 ul > li p {
+      font-size: 19px;
+    }
+  
+    .section1-3 {
+      display: block;
+      padding: 3rem 0;
+    }
+  
+    .section1-3 > div + div {
+      text-align: center;
+      margin-left: 0;
+      margin-top: 2rem;
+    }
+  
+    .section1-3 h2 {
+      font-size: 38px;
+    }
+  
+    .section1-3 p {
+      font-size: 19px;
+      margin-bottom: 0;
+    }
+  
+    .section2 form {
+      display: block;
+    }
+  
+    .section2 form button {
+      width: 100%;
+      margin-top: 1rem;
+      margin-left: 0;
+    }
+  
+    .section3 {
+      padding: 3rem 2rem;
+    }
+  
+    .section3 > h2 {
+      font-size: 2rem;
+    }
+  
+    .section3 .carousel-control-prev,
+    .section3 .carousel-control-next {
+      margin-top: -45px;
+      width: 50px;
+      height: 50px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .section1 {
+      background-size: 1011px;
+      background-position: 50% -246px, calc(50% + 32px) calc(100% + 88px);
+    }
+  
+    .section1-1 {
+      padding-top: 227px;
+      padding-bottom: 76px;
+    }
+  
+    .section1-1 h1 {
+      font-size: 57px;
+    }
+  
+    .section1-1 p {
+      font-size: 28px;
+    }
+  
+    .section1-1 button {
+      font-size: 20px;
+    }
+  
+    .section1-2 ul > li {
+      max-width: 166px;
+    }
+  
+    .section1-2 ul > li h2 {
+      font-size: 28px;
+      border-bottom-width: 3px;
+    }
+  
+    .section1-2 ul > li p {
+      font-size: 14px;
+    }
+  
+    .section1-3 {
+      min-height: 461px;
+    }
+  
+    .section1-3 h2 {
+      font-size: 38px;
+    }
+  
+    .section1-3 p {
+      font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .section1 {
+      background-size: 1347px;
+      background-position: 50% -328px, calc(50% + 42px) calc(100% + 118px);
+    }
+  
+    .section1-1 {
+      padding-top: 303px;
+      padding-bottom: 101px;
+    }
+  
+    .section1-1 h1 {
+      font-size: 76px;
+    }
+  
+    .section1-1 p {
+      font-size: 38px;
+    }
+  
+    .section1-1 button {
+      font-size: 26px;
+    }
+  
+    .section1-2 ul > li {
+      max-width: 221px;
+    }
+  
+    .section1-2 ul > li h2 {
+      font-size: 38px;
+    }
+  
+    .section1-2 ul > li p {
+      font-size: 19px;
+    }
+  
+    .section1-3 {
+      min-height: 615px;
+    }
+  
+    .section1-3 h2 {
+      font-size: 51px;
+    }
+  
+    .section1-3 p {
+      font-size: 19px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .section1 {
+      background-size: 1600px;
+      background-position: 50% -390px, calc(50% + 50px) calc(100% + 140px);
+    }
+  
+    .section1-1 {
+      padding-top: 360px;
+      padding-bottom: 120px;
+    }
+  
+    .section1-1 h1 {
+      font-size: 90px;
+    }
+  
+    .section1-1 p {
+      font-size: 45px;
+    }
+  
+    .section1-1 button {
+      font-size: 31px;
+    }
+  
+    .section1-2 ul > li {
+      max-width: 263px;
+    }
+  
+    .section1-2 ul > li h2 {
+      font-size: 45px;
+    }
+  
+    .section1-2 ul > li p {
+      font-size: 22px;
+    }
+  
+    .section1-3 {
+      min-height: 730px;
+    }
+  
+    .section1-3 h2 {
+      font-size: 60px;
+    }
+  
+    .section1-3 p {
+      font-size: 22px;
+    }
+  }
+  

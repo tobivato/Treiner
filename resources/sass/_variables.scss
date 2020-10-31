@@ -1,0 +1,49 @@
+/**
+    This file overwrites the variables defined in node_modules/bootstrap/scss/_variables.scss
+**/
+
+// Body
+$body-bg: #f0f0f0;
+
+// Typography
+$font-family-sans-serif:      'Futura', sans-serif;
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-family-base:            $font-family-sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+$jumbotron-bg: #ffffff;
+
+// Colors
+$white:    #ffffff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000000;
+$blue:     #3490dc;
+$indigo:   #6574cd;
+$purple:   #9561e2;
+$pink:     #f66d9b;
+$red:      #e3342f;
+$orange:   #f6993f;
+$yellow:   #ffed4a;
+$green:    #31795e;
+$teal:     #4dc0b5;
+$cyan:     #6cb2eb;
+
+//Button colours - e.g. btn-primary, btn-danger etc
+$primary:       $blue;
+$secondary:     $gray-600;
+$success:       $green;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $gray-100;
+$dark:          $gray-800;
+

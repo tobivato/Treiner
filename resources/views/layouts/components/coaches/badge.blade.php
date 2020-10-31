@@ -1,0 +1,1 @@
+<i class="fas fa-futbol badge-{!!$coach->calculateBadge()['name']!!}" title="{{$coach->calculateBadge()['explanation']}}"></i>

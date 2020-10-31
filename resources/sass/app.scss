@@ -1,0 +1,20 @@
+// Fonts
+@import 'fonts';
+
+@import '_variables';
+
+@import '~@fortawesome/fontawesome-free/css/all';
+
+// Bootstrap
+
+@import '~bootstrap/scss/bootstrap';
+
+@import '~select2/src/scss/core';
+
+@import '~@ttskch/select2-bootstrap4-theme/src/layout';
+
+//Master file
+
+@import 'master';
+
+@import 'welcome';
